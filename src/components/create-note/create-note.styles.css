@@ -26,6 +26,9 @@ input, textarea{
     color: white;
     cursor: pointer;
 }
+.plus-sign:hover{
+    color: #00303f;
+}
 .btn{
     min-width: 30px !important;
     height: 40px;
@@ -33,5 +36,8 @@ input, textarea{
     left: 520px;
     box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
     border-radius: 50% !important;
-    background: #c0e218 !important;
+    background: #00303f !important;
+}
+.btn:hover{
+    background-color: aliceblue !important;
 }

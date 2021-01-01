@@ -1,0 +1,27 @@
+.note{
+    border-radius: 7px;
+    box-shadow: 3px 5px 15px -5px rgba(0,0,0,0.3);
+    padding: 10px;
+    width: 240px;
+    margin: 16px;
+    /* float: left; */
+}
+.note h2{
+    font-size: 1.1rem;
+    margin-bottom: 6px; 
+}
+.note p{
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+.note .btn-d{
+    min-width: 30px !important;
+    height: 40px;
+    position: relative;
+    left: 170px;
+    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+    border-radius: 50% !important;
+    /* background: #00303f !important; */
+    /* float: right; */
+}

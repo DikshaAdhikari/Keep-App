@@ -2,7 +2,7 @@ import React from "react";
 import Button from '@material-ui/core/Button';
 import AddIcon from '@material-ui/icons/Add';
 
-import "./create-note.css";
+import "./create-note.styles.css";
 
 const CreateNote = () => {
     return (<>
