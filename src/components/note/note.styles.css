@@ -1,3 +1,4 @@
+
 .note{
     border-radius: 7px;
     box-shadow: 3px 5px 15px -5px rgba(0,0,0,0.3);
@@ -22,4 +23,13 @@
     left: 170px;
     box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
     border-radius: 50% !important;
+}
+@media (max-width:680px){
+    .note{
+        width: 150px;
+        margin: 16px 20px;
+    }
+    .note .btn-d{
+        left: 90px;
+    }
 }

@@ -1,43 +1,68 @@
-.main_note{
+.main_note {
     width: 600px;
     padding: 15px 10px 5px 10px;
     margin: 20px auto;
 }
-form{
+
+form {
     color: #000;
     padding: 15px 10px 5px 10px;
-    box-shadow: 3px 5px 15px -5px rgba(0,0,0,0.3);
+    box-shadow: 3px 5px 15px -5px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
 }
 
-input{
+input {
     font-size: 1.5rem !important;
     font-weight: bold;
 }
 
-input, textarea{
+input,
+textarea {
     width: 100%;
     border: none;
     outline: none;
     font-size: 1rem;
     margin: 10px 0;
 }
-.plus-sign{
+
+.plus-sign {
     color: white;
     cursor: pointer;
 }
-.plus-sign:hover{
+
+.plus-sign:hover {
     color: #00303f;
 }
-.btn{
+
+.btn {
     min-width: 30px !important;
     height: 40px;
     position: absolute;
     left: 520px;
-    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
     border-radius: 50% !important;
     background: #00303f !important;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: aliceblue !important;
+}
+
+@media (max-width: 680px) {
+    .main_note {
+        width: 400px;
+    }
+
+    .btn {
+        left: 320px;
+    }
+}
+
+@media (max-width: 410px) {
+    .main_note {
+        width: 300px;
+    }
+    .btn {
+        left: 220px;
+    }
 }
